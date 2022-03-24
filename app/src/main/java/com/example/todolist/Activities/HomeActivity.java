@@ -202,6 +202,7 @@ public class HomeActivity extends AppCompatActivity {
 
             }
         };
+        loader.dismiss();
         recyclerView.setAdapter(adapter);
         adapter.startListening();
     }
